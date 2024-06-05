@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">  
+</head>
+<body>
+    <div class="container">
+        <h1>Operaciones Básica con JS</h1>
+
+        <form id="calculatorForm">
+            <div class=" inputs">
+                <label for="">Número 1</label>
+                <input type="number" id="num1" placeholder="" required><br>
+                
+                <label for="">Número 2</label>
+                <input type="number" id="num2" placeholder="" required>
+            </div>
+                <button type="button" id="operacion" onclick="op('Suma')">+</button>
+                <button type="button" id="operacion" onclick="op('Resta')">-</button>
+                <button type="button" id="operacion" onclick="op('Multiplicacion')">*</button>
+                <button type="button" id="operacion" onclick="op('Division')">/</button>              
+            </select><br>         
+        </form>
+        <span id="resultado"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
